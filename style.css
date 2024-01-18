@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background-color: dodgerblue
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.nav1 {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    margin-top: 70px;
+    margin-right: 70px;
+    border: 10%;
+    border-radius: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: inline-start;
+    display: inline;
+    color: white;
+    font-size: 25px;
+    
+}
+
+li a {
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.signin {
+    border: 10px;
+    background-color: tomato;
+    border-radius: 50px;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+.main-body {
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+img {
+    border: none;
+    border-radius: 10%;
+}
+
+img.banner {
+    width: 700px;
+    height: 800px;
+    float: right;
+    padding-right: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+h2 {
+    color: white;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+
+.search {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 70px;
+    border-color: blue;
+    border-radius: 30px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-top: 100px;
+    margin-left: -40px;
+    border-color: blue;
+    border-radius: 30px;
+    background-color: tomato
+}
